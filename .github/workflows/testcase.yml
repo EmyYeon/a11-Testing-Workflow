@@ -1,8 +1,8 @@
-name: Automated Test
+name: AutoTest
 on: [push]
 jobs:
-  automated_test:
-    name: Automated Test
+  find_lowest_number_test:
+    name: Find Lowest Number Test
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
